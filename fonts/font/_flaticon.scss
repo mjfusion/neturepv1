@@ -1,0 +1,65 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 14/11/2018 17:51
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-debit-card:before { content: "\f100"; }
+.flaticon-worker:before { content: "\f101"; }
+.flaticon-loan:before { content: "\f102"; }
+.flaticon-taxes:before { content: "\f103"; }
+.flaticon-master-of-ceremonies:before { content: "\f104"; }
+.flaticon-manager:before { content: "\f105"; }
+.flaticon-percentage:before { content: "\f106"; }
+.flaticon-meeting:before { content: "\f107"; }
+.flaticon-insurance:before { content: "\f108"; }
+.flaticon-accounting:before { content: "\f109"; }
+.flaticon-trademark:before { content: "\f10a"; }
+.flaticon-money-growth:before { content: "\f10b"; }
+.flaticon-growth:before { content: "\f10c"; }
+    
+    $font-Flaticon-debit-card: "\f100";
+    $font-Flaticon-worker: "\f101";
+    $font-Flaticon-loan: "\f102";
+    $font-Flaticon-taxes: "\f103";
+    $font-Flaticon-master-of-ceremonies: "\f104";
+    $font-Flaticon-manager: "\f105";
+    $font-Flaticon-percentage: "\f106";
+    $font-Flaticon-meeting: "\f107";
+    $font-Flaticon-insurance: "\f108";
+    $font-Flaticon-accounting: "\f109";
+    $font-Flaticon-trademark: "\f10a";
+    $font-Flaticon-money-growth: "\f10b";
+    $font-Flaticon-growth: "\f10c";
